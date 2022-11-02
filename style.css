@@ -112,7 +112,7 @@ footer{
     border-radius: 10px;
 }
 .contact-container{
-    min-height: 60vh;
+    min-height: 80vh;
     display: flex;
     width: 50%;
     margin: auto;
@@ -176,7 +176,7 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 90vh;
+  min-height: 100vh;
   background-color: black;
   color: white;
   flex-direction: column;
@@ -191,3 +191,43 @@ footer{
 .about-me p{
   font-size: 1.5rem;
 }
+
+/* services style */
+.services{
+  min-height: 90vh;
+}
+.services h1{
+  text-align: center;
+  padding-top: 4rem;
+}
+.services-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  min-height: 80vh;
+  width: 80%;
+}
+.services-container div{
+  margin: 2rem;
+  text-align: center;
+  border-radius: 1rem;
+  /* color: white; */
+  padding: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.services-container h3{
+  margin-bottom: 2rem;
+}
+/* .services-container div:nth-child(1){
+  background-color: rgb(28, 28, 29);
+}
+.services-container div:nth-child(2){
+  background-color: rgb(65, 53, 2);
+}
+.services-container div:nth-child(3){
+  background-color: rgb(46, 13, 13);
+}
+.services-container div:nth-child(4){
+  background-color: rgb(12, 12, 34);
+} */
